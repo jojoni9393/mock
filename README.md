@@ -44,7 +44,7 @@ module.exports = () => {
 ### 启动命令
 ```javascript
 json-server --watch mock/server.js --port 9999
-或者跟随项目一起启动（vue）
+//或者跟随项目一起启动（vue/cli3已测试）
  "scripts": {
     "serve": "json-server --watch mock/server.js --port 9999 | vue-cli-service serve",
     "build": "vue-cli-service build"
